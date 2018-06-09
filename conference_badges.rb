@@ -2,7 +2,9 @@
 
 names = ["Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 def batch_maker(names)
-    names.each do |name|
-      puts "Hello, my name is #{name}."
-    end
+    puts "Hello, my name is #{name}."
 end
+
+# names.each do |name|
+#   puts "Hello, my name is #{name}."
+# end
